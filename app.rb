@@ -10,3 +10,9 @@ end
 get '/job/new' do
   erb(:new_job)
 end
+
+post '/jobs' do
+  job = Job.new(params)
+  job.save()
+  erb(:index)
+end
