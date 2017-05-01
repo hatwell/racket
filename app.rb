@@ -7,6 +7,6 @@ get '/' do
   erb(:index)
 end
 
-get '/jobs/new' do
+get '/job/new' do
   erb(:new_job)
 end
