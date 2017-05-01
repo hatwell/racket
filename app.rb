@@ -6,3 +6,7 @@ require( 'sinatra/contrib/all' )
 get '/' do
   erb(:index)
 end
+
+get '/jobs/new' do
+  erb(:new_job)
+end
