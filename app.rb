@@ -1,6 +1,7 @@
 require( 'sinatra' )
 require( 'pry')
 require( 'sinatra/contrib/all' )
+require_relative('models/job')
 
 #change
 get '/' do
