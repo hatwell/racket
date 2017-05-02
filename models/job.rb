@@ -1,4 +1,4 @@
-require_relative('db/sql_runner')
+require_relative('../db/sql_runner')
 
 class Job
   attr_reader :position, :company, :job_offer, :stage_of_process, :application_sent
