@@ -4,6 +4,7 @@ class Job
   attr_reader :position, :company, :job_offer, :stage_of_process, :application_sent
 
   def initialize params
+    @id = params['id']
     @position = params['position']
     @company = params['company']
     @job_offer = params['job_offer']
