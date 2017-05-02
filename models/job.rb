@@ -9,7 +9,7 @@ class Job
     @company = params['company']
     @job_offer = params['job_offer']
     @stage_of_process = params['stage_of_process']
-    @application_sent = param['application_sent']
+    @application_sent = params['application_sent']
   end
 
   def save
